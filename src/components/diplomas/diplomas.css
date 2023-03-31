@@ -1,0 +1,61 @@
+.container.diplomas__container{
+    width: 35%;
+    padding-bottom: 4rem;
+}
+
+h3{
+  text-align: center;
+  color: var(--color-white);
+}
+
+.logouni{
+    width: 4rem;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto 0 ;
+    border: 0.4rem solid var(--color-bg);
+}
+
+.diploma{
+    background: var(--color-bg-variant);
+    align-items: center;
+    padding: 2rem;
+    border-radius: 2rem;
+    user-select: none;
+    
+}
+
+.cuadro img{
+   display: block;
+   width: 90%;
+   margin: 0.8rem auto 0;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet{
+  background: var(--color-primary);
+}
+
+/* RESPOSIVE*/
+
+/* MEDIDAS MD */
+
+@media screen and (max-width: 1024px){
+  .container.diplomas__container{
+    width: 60%;
+  } 
+}
+     
+    
+  /* MEDIDAS SD */
+     
+@media screen and (max-width: 600px){
+    .container.diplomas__container{
+        width: var(--container-width-sm);
+    }
+
+    .cuadro{
+        width: var(--container-width-sm);
+    }
+
+}
